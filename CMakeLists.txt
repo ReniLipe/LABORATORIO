@@ -24,6 +24,8 @@ add_executable(main src/main.cpp
         src/AStar.cpp
         src/AStar.h
         src/Map.cpp
-        src/Map.h)
+        src/Map.h
+        src/Character.cpp
+        src/Character.h)
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)
